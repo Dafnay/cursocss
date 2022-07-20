@@ -1,0 +1,45 @@
+    /*
+     border-radius: 50px; Círculo cin 50px de radio
+     
+     Si utilizamos el border-radius como shorthand hay diferencias entre si queremos dar un valor a cada lado (círculo) o dos (elipse)
+
+     Con un solo valor:
+        border-radius: 50px->Círculo de 50px a cada vértice
+        border-radius: 50px 100px; Círculo de 50px en el vértice superior izquierdo y en el inferior derecho y de 100px en el superior derecho y en el inferior izquierdo
+        border-radius: 50px 100px 200px; Circulo de 50px en el borde superior izquierdo y en el inferior derecho, 100px en el superior derecho y 200px en el inferior derecho.
+        border-radius: 50px 100px 200px; Circulo de 50px en el bode superior izquierdo, 100px en el superior derecho, 200px en el inferior derecho y 300px en el inferior izquierdo
+
+    Si le damos 2 valores separados por una barra dibujará una elipse en cada vértice con los radios que le esoecifiquemos-
+        border-radius: 50px/100px; -> elipse con 50px en el radio X y 100px en el radio Y
+    Con dos valores:
+        Al tener dos radios debemos agrupar los radios y separarlos por una barra.
+        border-radius: 25px 50px/50px 100px; -> elipse de 25px en Y y 50 en X a los vértices superior derecho e inferior izquierdo
+
+        border-radius: 25px 50px 75px/ 50px 100px 150px; -> Elipse de 25px en Y y 50px ern X al vértice superior izquierdo, una elipse de 50px en Y y 100px en X  en los vertices superior derecho e inferior izquierdo y una elipse de 75px enm y y de 150px en X al vértice inferior derecho
+
+        border-radius: 25px 50px 75px 100px / 50px 100px 150px 200px;-> elipse de 25px en Y y 50px en X al vértice superior izquierdo, una elipse de 50px en Y...
+     */
+
+
+
+
+
+body{
+    background-color: #333;
+    color: #fff;
+    margin: 0;
+}
+.box{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    background-color: lightcyan;
+    width: 300px;
+    height: 300px;
+    /* border-radius: 50px; */
+    border-top-left-radius: 150px;
+    border-top-right-radius:100px;
+    border-bottom-right-radius: 150px;
+    border-bottom-left-radius: 200px;
+    border-radius: 50px 100px 150px 200px;
+}

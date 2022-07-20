@@ -1,0 +1,18 @@
+/* 
+Cuando en CSS usamos la propiedad text-* afectamos a un bloque completo
+
+Cuando utilizamos una propiedad font-* afecta a la fuente del texto
+
+Fuentes predeterminadas
+
+    serif: fuentes que tienen serifas (adornos en los caracteres) para titulos, xq en párrafo agota la vista
+    sans-serif: fuentes sin serifas
+    monospace: mismo espacio entre caracteres
+    cursive: emula escritura a mano
+    fantasy: fuentes decorativas
+
+
+Las fuentes desde un servidor remoto, son fuentes que se encuentran en un servidor y descargamosd para su uso, la más famosa es GOOGLE FONTS
+
+Siempre que utilicemos fuentes no genéricas, debemos poner fuentes genéricas de fallback (respaldo)
+*/
