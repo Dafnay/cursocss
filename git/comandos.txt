@@ -1,0 +1,11 @@
+git add .       este comando hace la foto de los cambios nuevos
+git commit -m "aqui ponemos el mensaje relacionado con los cambios hechos"
+git push        lo sube a la nube
+
+si queremos descargar el proyecto en otro pc, vamos a la pagina de github, entramos en el proyecto y
+en el botón verde que pone code deplegamos y copiamos el link ejemplo https://github.com/Dafnay/cursocss.git
+en el nuevo pc hacemos el siguiente comando:
+
+git pull https://github.com/Dafnay/cursocss.git esto descargara el proyecto y lo pondra en la carpeta actual de la consola
+
+importante estar situados en la que queremos
