@@ -31,4 +31,75 @@ Hola estamos probando git
         format() si queremos ser mas especificos con la fuente a descargar, sino lo ponemos cogera el 1er formato soportado, sino el establecido y sino encuentra no hará nada.
 }
     Podemos añadirle más valores como font-style, font-weight y font-display (experimental), pero son opcionales.
+
+    dafont
+    1001fonts.com
+
+    convertio.co------ para cambiar el formato de fuente
+    hay una extension de chrome que se llama whatfont------para detectar las fuentes de un sitio web
+    ........................................................................................................................
+
+    Transformaciones de texto
+
+        Text-transform: nos permite hacer transformaciones ESTÉTICAS en nuestro texto
+        Admite los valores:
+            none: Ninguna trabsformación
+            uppercase: Texto en mayúsculas
+            lowercase: texto en minúsculas
+            capitalize: Transforma la 1 letra de cada palabra en mayúscula
+    Adornos en el texto
+
+        text-decoration: Controlar la línea que podemos poner en los textos
+        Admite valores:
+            none: elimina cualquier línea
+            underline: línea bajo texto
+            overline: línea sobre el texto
+            line-through: línea tachando texto
+
+        text-shadow: funciona como box-shadow, menos que no admite inset ni expansión de sombra.
+        Los valores son:
+            offsetX: desplazamiento horizontal
+            offsetY: desplazamiento vertical
+            blur: desenfoque
+            color: por defecto cogeria el del texto
+
+    Espaciado en fuentes y textos
+
+        letter-spacing: separacion entre caracteres
+        word-spacing: entre palabras
+        line-height: el alto de cada línea / 
+    
+    Orientación de texto
+        writting-mode: dirección del texto
+
 */
+body{
+    background-color: #333;
+    color: aliceblue;
+    font-family: sans-serif;
+}
+
+.text{
+    text-transform: capitalize;
+    /* writing-mode: vertical-rl; */
+    /* word-break: break-all;
+    width: 10px;
+    text-align: center; */
+    /* line-height:2; */
+    /* letter-spacing: 2px; */
+    /* word-spacing: 2px; */
+    /* text-shadow: 1px 0px blue, 2px 0px red;*/
+}
+.word-container{
+    background-color: lightcoral;
+    height: 100px;
+    text-align: center;
+
+}
+.word{
+    line-height: 100px;
+}
+/* .link{
+    color: inherit;
+    text-decoration: line-through;
+} */
