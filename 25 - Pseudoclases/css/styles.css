@@ -1,0 +1,39 @@
+/* 
+
+PSEUDOCLASES
+
+Son selectores que reaccionan en tiempo real detectando la interacción de usuario con algunos elementos
+
+Funcionan con todos los selectores de css
+No están atados a ningún elemento
+
+Su sintaxis es:
+
+    selector:pseudoclase{
+        estilos
+*/
+
+
+
+ .title::first-letter {
+     color: red;
+     font-size: 2em;
+ }
+
+ .text::first-line {
+     color: blue;
+ }
+
+ .text::selection {
+     color: lime;
+     background: red;
+ }
+
+ .dolar::before,
+ .dolar::after {
+     content: '';
+     display: block;
+     width: 20px;
+     height: 20px;
+     background-color: red;
+ }
