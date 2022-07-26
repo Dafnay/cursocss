@@ -14,13 +14,12 @@ son de formulario menos fullscreen
         :optional 
         :valid 
         :invalid 
-        :fullscreen 
-        
-Structural 
+        :read-only
+        :read-write
 
-        :root
-        :nth-child() 
-        :nth-last-child() */
+
+        :fullscreen 
+         */
 .input, 
 .label{
     display: block;
