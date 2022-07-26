@@ -1,0 +1,54 @@
+/* 
+
+PSEUDOCLASES 2 
+
+UI States / de estado,
+son de formulario menos fullscreen 
+
+        :enabled 
+        :disabled 
+        :checked 
+        :in-range 
+        :out-of-range 
+        :required 
+        :optional 
+        :valid 
+        :invalid 
+        :fullscreen 
+        
+Structural 
+
+        :root
+        :nth-child() 
+        :nth-last-child() */
+.input, 
+.label{
+    display: block;
+}
+.input:enabled{
+    background:red;
+}
+.input:disabled{
+    background: yellow;
+}
+.input:checked + label{
+    font-size: 2em;
+}
+.input:in-range {
+    background: green;
+}
+.input:out-of-range {
+    background: blue;
+}
+.input:optional {
+    background: purple;
+}
+.input:required {
+    background: lightcoral;
+}
+.input:valid {
+    background: green;
+}
+.input:invalid {
+    background: red;
+}

@@ -1,39 +1,101 @@
 /* 
+PSEUDOCLASES 
 
-PSEUDOCLASES
+Son selectores que reaccionan en tiempo real detectando la interacción de usuario con algunos elementos 
 
-Son selectores que reaccionan en tiempo real detectando la interacción de usuario con algunos elementos
+Funcionan con todos los selectores de css No están atados a ningún elemento 
 
-Funcionan con todos los selectores de css
-No están atados a ningún elemento
 
 Su sintaxis es:
 
-    selector:pseudoclase{
-        estilos
-*/
+selector:pseudoclase {
+    estilos
+}
+
+:pseudoclase {
+    estilos
+}
+
+     Dynamic
+        :link (links) - Link no visitado
+        :visited(links) - Link visitado
+        :active (links) - El momento del click
+        :hover: Al poner mouse sobre elemento
+        :focus - cuando el elemento tiene foco
+    
+    Target
+        :target - Elemento que es objetivo de marcador o ancla.
+    
+    Language
+        :lang() - Elemento que contiene el atricuto lang que especifiquemos */
+/* 
+
+--------------------------------------------
 
 
 
- .title::first-letter {
-     color: red;
-     font-size: 2em;
- }
+.link:link {
+    color:red;
+}
+.link:visited {
+    color: chartreuse;
+}
+.link:active{
+    color: cyan;
+    background: red;
+} */
 
- .text::first-line {
-     color: blue;
- }
+.title:hover{
+    color:blueviolet;
+}
 
- .text::selection {
-     color: lime;
-     background: red;
- }
+/* .menu{
+    background: lightblue;
+    display: block;
+    padding: 1em;
+    text-decoration: none;
+    text-align: center;
+    position:fixed;
+    width: 100%;
+    top: 0;
+    left:0;
+}
+.text {
+    margin-top: 500px;
+    margin-bottom: 500px;
+}
+.text:target {
+    padding-top: 75px;
+} */
+.span{
+    display: block;
+}
 
- .dolar::before,
- .dolar::after {
-     content: '';
-     display: block;
-     width: 20px;
-     height: 20px;
-     background-color: red;
- }
+.span:lang(en){
+    color:red;
+}
+.span:lang(es){
+    color:blue;
+}
+/* .button{
+    text-decoration: none;
+    display:inline-block;
+    background: red;
+    padding: .5rem;
+    border-radius: 10px;
+    color:#fff;
+
+}
+.button:active{
+    transform: scale(.9);
+}
+.button:hover{
+    color:red;
+    background: #fff;
+    border:1px solid red;
+    border-radius: 10px;
+}
+.input:focus{
+        background: green;
+
+} */
