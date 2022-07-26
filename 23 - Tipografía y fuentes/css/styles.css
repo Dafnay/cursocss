@@ -20,4 +20,15 @@ Siempre que utilicemos fuentes no genéricas, debemos poner fuentes genéricas d
 
 
 Hola estamos probando git
+
+@font-face {
+    font-family: nombre que queramos
+    src: 
+    2 tipos de valores
+        local() fuente en el ordenador
+        url() descargamos fuente
+
+        format() si queremos ser mas especificos con la fuente a descargar, sino lo ponemos cogera el 1er formato soportado, sino el establecido y sino encuentra no hará nada.
+}
+    Podemos añadirle más valores como font-style, font-weight y font-display (experimental), pero son opcionales.
 */
