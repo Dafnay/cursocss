@@ -1,0 +1,62 @@
+[class^="bg-"] {
+    display: inline-block;
+    width: 30%;
+    height: 150px;
+    border: 1px solid red;
+}
+
+/*
+
+background-color:  color fondo de la caja
+background-image: url(ruta) imagen fondo caja
+background-repeat: si se repite imagen o no
+background-size: tamaño de la imagen de fondo
+background-position: posición de la imagen, sino se especifica un 
+    segundo valor será center
+
+    left top
+    left center
+    left bottom
+    right top
+    right center
+    right bottom
+    center top
+    center center
+    center bottom
+    x% y%
+    xpos ypos
+    initial
+    inherit
+
+background-attachment: si el fondo se coloca respecto a la caja 
+    o al viewport
+
+background-clip: que parte de la caja rellenará el fondo
+        border-box| padding-box | content-box
+
+background-origin: donde comienza el fondo
+        border-box| padding-box | content-box
+        */
+
+
+body{
+    padding-bottom: 50em;
+    text-align: center;
+}
+    
+bg-color{}
+
+bg-image{}
+
+bg-repeat{}
+
+bg-size{}
+
+bg-position{}
+
+bg-attachment{}
+
+bg-clip{}
+
+bg-origin{}
+
