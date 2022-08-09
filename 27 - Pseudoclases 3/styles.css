@@ -1,0 +1,32 @@
+/* 
+Structural
+    :root - para variables de css, representa la raiz del documento
+
+    :empty - seleccionamos elementos vacíos
+
+    -child
+        :first-child - aplica al primer hijo
+        :last-child - aplica al último hijo
+
+        :nth-child(n) - selecciona la hijo n (da igual etiqueta)
+        :nth-last-child() - empieza a contar desde el ultimo hijo (da igual etiqueta)
+        :only-child - selecciona al hijo único (da igual etiqueta)
+
+
+    -type (si les importa el tipo de etiqueta)
+        :first-of-type
+        :last-of-type
+        :nth-of-type()
+        :only-of-type
+
+    Valores posibles: 
+        odd - impares
+        even - pares
+        numeros enteros - 2,3,4...
+        equaciones (1n,3n,4n+1..)
+            n es un multiplicador va de 0 a n
+
+    Negation
+        :not() -  selecciona al alemento que no 
+        cumpla la condición, se puede poner cualquier selector salvo otro :not
+*/
