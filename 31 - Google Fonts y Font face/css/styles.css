@@ -1,0 +1,17 @@
+
+/* .title{
+    font-family: font-family: 'Raleway',
+            sans-serif;
+}
+.paragraph{
+    font-family: 'Montserrat',
+        sans-serif;
+} */
+
+@font-face {
+    font-family: 'myfont';
+    src: url('../assets/Fonts/hello_honey/hello\ honey.otf');
+}
+.title {
+    font-family: myfont, serif;
+}
