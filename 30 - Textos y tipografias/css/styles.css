@@ -1,0 +1,55 @@
+/* 
+TIPOGRAFIAS
+
+    font-family
+    font-size
+        px: medida absoluta
+        em: relativa al contexto
+        rem: relativa a todo al hmtl
+        %: al tamaño actual
+        ...
+    font-weight : el grosor de la fuente
+    bold | normal | 100-900
+
+    font-style: estilo de la tipografía
+    normal | italic| oblique
+
+
+TEXT
+    text-transform: transforma el texto en mayusculas, minusculas...
+    lowercase |uppercase | capitalize
+
+    text-align: alinea el texto   SOLO ELEMENTOS DE BLOQUE
+    center| left| right | justify (no se suele usar en web)
+
+    text-decoration:decoracion del texto
+    overline |line-through| underline |none
+
+    text-indent: mueve la 1 linea de un texto (sangría), SOLO ELEMENTOS DE BLOQUE
+
+OTHER
+    line-heigh: altura de la línea
+    letter-spacing: separación de las letras
+
+    
+*/
+
+/* .title {
+    text-transform: capitalize;
+}
+.paragraph{
+    font-weight:bold ;
+}
+.paragraph{
+    text-align: right;
+} */
+
+.box{
+    width: 100px;
+    height: 100px;
+    background: red;
+}
+.box_item{
+    line-height: 100px;
+    text-align: center;
+}
