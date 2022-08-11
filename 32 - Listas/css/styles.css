@@ -1,0 +1,25 @@
+/* 
+
+list-style-type: estilo de viñeta
+
+    disc
+    circle
+    square
+    decimal
+    decimal-leading-zero
+    lower-roman
+    upper-roman
+    lower-greek
+    uper-greek
+    lower-latin
+    upper-latn
+    armenian
+    georgian
+    lower-alpha
+    upper-alpha
+
+list-style-position: las viñetas se colocan dentro o fuera del elemento
+*/
+.list{
+    list-style-type: disc;
+}
