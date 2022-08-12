@@ -1,4 +1,15 @@
 /* 
+LISTAS
+
+PARA RESETEAR LOS ESTILOS POR DEFECTO DE UNA LISTA
+
+ margin-top: 0;
+ margin-bottom: 0;
+ padding-left: 0;
+ list-style: none;
+
+
+ELEMENTOS DE LA LISTA
 
 list-style-type: estilo de viñeta
 
@@ -34,17 +45,42 @@ Normalmente se suele utilizar el shorthand list-style
     list-style-image: url(../assets/kisspng-check-mark-computer-icons-clip-art-green-check-mark-2-icon-5ab1d1c074ab99.0084112415216030084779.png);
 } */
 .list{
-    list-style-type: none;
+    /* list-style-position: outside; */
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    list-style: none;
 }
+/* .list_item {
+    background: red;
+} */
 
-
-.list_item::before {
+/* .list_item::before {
     content: '';
     display: inline-block;
     width: 1.5em;
     height: 1.5em;
     background-image: url(../assets/kisspng-check-mark-computer-icons-clip-art-green-check-mark-2-icon-5ab1d1c074ab99.0084112415216030084779.png);
-    background-position:  0 0;
+    background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
+    padding-right: 1em;
+
+} */
+
+/*.list_item {
+     background-image: url(../assets/kisspng-check-mark-computer-icons-clip-art-green-check-mark-2-icon-5ab1d1c074ab99.0084112415216030084779.png);
+    background-position: 0 0;
+    background-size: contain;
+    background-repeat: no-repeat; */
+    /* padding-left: 2em;
+    background: url(../assets/kisspng-check-mark-computer-icons-clip-art-green-check-mark-2-icon-5ab1d1c074ab99.0084112415216030084779.png) 0 0 /contain no-repeat; */
+
+}
+
+
+.list_item{
+    float: left;
+    padding-right: 1em;
+
 }
