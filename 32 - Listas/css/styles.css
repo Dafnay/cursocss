@@ -10,7 +10,6 @@ list-style-type: estilo de viñeta
     lower-roman
     upper-roman
     lower-greek
-    uper-greek
     lower-latin
     upper-latn
     armenian
@@ -19,7 +18,33 @@ list-style-type: estilo de viñeta
     upper-alpha
 
 list-style-position: las viñetas se colocan dentro o fuera del elemento
+outside| inside
+
+list-style-image: pone imagen en lugar de viñeta, 
+no se suele utilizar porque hay formas más eficientes url(image)
+
+Normalmente se suele utilizar el shorthand list-style
+
 */
-.list{
+/* .list{
     list-style-type: disc;
+} */
+
+/* .list {
+    list-style-image: url(../assets/kisspng-check-mark-computer-icons-clip-art-green-check-mark-2-icon-5ab1d1c074ab99.0084112415216030084779.png);
+} */
+.list{
+    list-style-type: none;
+}
+
+
+.list_item::before {
+    content: '';
+    display: inline-block;
+    width: 1.5em;
+    height: 1.5em;
+    background-image: url(../assets/kisspng-check-mark-computer-icons-clip-art-green-check-mark-2-icon-5ab1d1c074ab99.0084112415216030084779.png);
+    background-position:  0 0;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
