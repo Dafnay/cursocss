@@ -1,0 +1,27 @@
+/* 
+object-fit: como debe cambiar la img o video para q se ajuste al contenedor
+    fill - por defecto
+    contain - rellena sin deformar
+    cover - rellena pero no se ve entera
+    none - a tamaño original y solo se rellena el trozo que corresponda
+    scale-down - selecciona el menor de none y contain
+
+object-position: coloca la imagen cuando no se muestra completa en 
+                 el contenedor. (con cover o none)
+
+filter: 
+    none
+    blur desenfoca
+    brightness de 0 a 1 de oscuro a original, de uno a ... sobreexposición
+    contrast 1 es el original, 0 es negro y de 1 a n da contraste
+    drop-shadow
+    grayscale(%)
+    hue-rotate (deg): 
+    invert (%)
+    opacity (%)
+    saturate(%)
+    sepia(%)
+
+
+
+*/
