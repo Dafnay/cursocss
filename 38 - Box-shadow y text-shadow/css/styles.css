@@ -1,0 +1,30 @@
+/* 
+box-shadow:  
+    Es una propiedad que crea una sombra del tamaño de la caja
+    h-offset:  desplazamiento horizontal de la sombra
+    v-offset: desplazamiento vertical
+    blur: cantidad de desenfoque
+    spread: extensión de la sombra
+    color: color de la sombra, sino cogerá el color del texto
+    inset|outset: si la sombra se dibuja por dentro o fuera de la caja
+
+
+text-shadow: h-offset   v-offset   blur  color
+    sombras múltiples
+*/
+
+.box{
+    background-color: #aaa;
+    width: 200px;
+    height: 200px;
+    border: 3px solid black;
+    margin: 2em auto;
+    box-shadow: 10px 10px red inset;
+                /* 0 0 0 10px blue,
+                0 0 0 15px purple;
+} */
+
+.title{
+    text-align: center;
+    text-shadow: 1px 1px 0px red;/* , -11px -11px 2px blue; */
+}
