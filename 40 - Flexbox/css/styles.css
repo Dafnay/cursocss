@@ -9,4 +9,14 @@ FLEXBOX - BASE
 - Las cajas flexibles son los items, el contenedor es el contexto al que 
   pertenecen los items
 
+
+FLEXBOX - EJES
+
+- Existen dos ejes para colocar y alinear elementos
+- Por defecto el eje principal es horizontal y de izq a dcha y el eje secundario
+  es vertical de arriba abajo
+- Se pueden intescambiar los ejes y dirección de ambos
+  el eje principal será el main axis (main start y main end) y el secundario el 
+  cross axis (cross start y cross end)
+
 */
