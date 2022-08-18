@@ -1,0 +1,12 @@
+/* 
+FLEXBOX - BASE
+
+- Es un modelo de layout que permite que las cajas sean flexibles, es un valor 
+  de la propiedad display
+- Existe display:flex y  display:inline-flex para que el contenedor sea en
+  bloque o en línea respectivamente
+- Se necesita un contenedor (flex-container) y al menos un hijo (flex-item)
+- Las cajas flexibles son los items, el contenedor es el contexto al que 
+  pertenecen los items
+
+*/
