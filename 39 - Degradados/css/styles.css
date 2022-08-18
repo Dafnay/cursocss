@@ -1,0 +1,22 @@
+/* 
+Un degradado es una transición de un color a otro. es un background-image, 
+hay 2 tipos d degradados: lineales y radiales
+
+1- Degradados lineales
+    linear-gradient([direction], color-1, color-2...)
+    la dirección es opcional, se puede establecer con un ángulo 
+    o estableciendo la dirección del degradado
+
+
+
+Degradados radiales
+*/
+
+.box{
+    width: 200px;
+    height: 200px;
+    border: 3px solid black;
+    margin: 2em auto;
+    background-image: linear-gradient(to top right, red,blue)
+
+}
