@@ -3,13 +3,23 @@ Un degradado es una transición de un color a otro. es un background-image,
 hay 2 tipos d degradados: lineales y radiales
 
 1- Degradados lineales
-    linear-gradient([direction], color-1, color-2...)
+    linear-gradient([direction (cicle, ellipse], color-1, color-2...)
     la dirección es opcional, se puede establecer con un ángulo 
     o estableciendo la dirección del degradado
 
+para establecer las paradas se puede utilizar cualquier medida, si las
+paradas/inicios empiezan en el mismo sitio se genera un cote sólido.
+background-image: linear-gradient (red 50%, blue 50%)
 
 
 Degradados radiales
+Funcionan similar a los degradados lineales
+background-image: radial-gradient ([shape]red, blue)
+
+Por defecto podemos establecer si queremos un círculo o un elipse 
+y definir el radio o radios. el punto de origen es siempre el centro, sino deberemos 
+poner "at top|right|left|bottom...
+
 */
 
 .box{
@@ -17,6 +27,25 @@ Degradados radiales
     height: 200px;
     border: 3px solid black;
     margin: 2em auto;
-    background-image: linear-gradient(to top right, red,blue)
-
+    background-image: repeating-radial-gradient(circle 20px,
+            red 0,
+            red 10px,
+            blue 10px,
+             blue 20px);
 }
+
+    /* background-image: linear-gradient(red 50%,blue 50% 70%, yellow) */
+    /* background-image: radial-gradient(circle 100px at top, red,blue); */
+
+    /* background-image: repeating-linear-gradient(30deg,  
+        red 0px,
+        blue 70px);,
+        /* blue 25%,
+        red 25%,
+        red 50%,
+        blue 50%,
+        blue 75%,
+        red 75%); */ 
+    /* background-size: 30px 30px;*/
+    
+ 
