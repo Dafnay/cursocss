@@ -41,9 +41,19 @@ FLEXBOX - EJES
 
 
     TRUCO EXTRA:  
+        CON MARGIN:AUTO SIEMPRE VA A ESTAR CENTRADO, EN FLEX EL MARGIN 
+        AL LADO QUE PONGAS SE VA AL LADO CONTARIO DEL DICHO
 
+    
+    PROPIEDAD FLEX: Es un shorthand que engloba las siguientes propiedaddes.
 
+      flex-grow: que hacer cuando hay espacio sobrante.
 
+      flex-shrink: que hacer cuando no hay espacio suficiente
+
+      flex-basics: cuanto tiene que ocupar el item antes de encoger o extenderse.
+
+      Order: que orden ocupara el elemento en el contenedor flex.
       */
 
 
