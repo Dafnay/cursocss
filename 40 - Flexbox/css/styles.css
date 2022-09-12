@@ -53,6 +53,11 @@ FLEXBOX - EJES
 
       flex-basics: cuanto tiene que ocupar el item antes de encoger o extenderse.
 
+     La propiedad flex, por defecto tiene la propiedad
+     0 1 auto
+     auto: 1 1 auto 
+     none: 0 0 auto
+     
       Order: que orden ocupara el elemento en el contenedor flex.
       */
 
