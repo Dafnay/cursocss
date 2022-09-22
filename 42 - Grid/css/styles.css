@@ -1,0 +1,56 @@
+/* GRID - FUNDAMENTOS
+
+*Es un modelo de layout que permite construir cuadriculas 
+dinamicas, es un valor de la propiedad display.
+
+*al igual que flexbox, tenemos 
+        display: grid y display:inline-grid 
+
+*Se necesita un contenedor(grid-container) y al menos un hijo (grid-item)
+*Las celdas son los items, el contenedor es el contexto al que pertenecen los items.
+
+
+TERMINOLOGIA
+
+-Grid column: columna de nuestra cuadricula
+-Grid row: la fila de nuestra columna
+-Grid cell: La celda de la cuadrícula
+-Grid-gap: Separación entre celdas
+-Grid line: lineas que delimitan cada columna/fila (column lines y row lines)
+
+VENTAJAS DE USAR GRID
+
+Cada celda es dinámica y el resto se adapta
+Podemos decir donde empieza y donde acaba cada celda, tanto en columna como fila
+Posibilidades inmensas
+
+
+*/
+
+body{
+    font-family: sans-serif;
+    background-image: radial-gradient(circle, #b94bf8,#3a1957);
+    background-repeat: no-repeat;
+    margin: 0;
+    color: #eee;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 100px 50px 150px 10px;
+    grid-template-rows: 100px 120px 50px;
+    grid-gap: 10px;
+}
+
+.grid-item {
+    border: 1px solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    font-size: 2rem;
+}
