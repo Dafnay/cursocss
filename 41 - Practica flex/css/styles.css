@@ -7,39 +7,99 @@ body{
     height: 100vh;
 }
 
-.card{}
-
-
-.card_felt{}
-
-
-.card_right{}
-
-
-.card-title{}
-
-
-.form{}
-
-
-.form_field{}
-
-
-.form_names{}
+img{
+    max-width: 60%;
+}
+.card{
+    background-color: #333;
+    width: 80%;
+    height: 450px;
+    display: flex;
+    margin: 2em auto;
+}
 
 
 
-.form_label{}
+.card_left{
+    width: 20%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    background-color: #222;
+    padding: .5rem 0;
+
+}
+
+
+.card_right{
+    width: 80%;
+    padding: 0 1rem;
+}
+
+
+.card_title{
+    text-transform: uppercase;
+    margin: 1rem 0;
+}
+
+
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 350px;
+}
+
+
+.form_field{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.form_names{
+    display: flex;
+    justify-content: space-between;
+}
+
+.form_names input {
+    width: 460px;
+}
+
+
+
+.form_label{
+    margin-bottom: .5rem;
+    text-transform: uppercase;
+    font-style: .8rem;
+}
 
 
 .form_input,
-.form_textarea{}
+.form_textarea{
+    background: none;
+    border: none;
+    border-bottom: 1px solid #eee;
+    color: inherit;
+}
 
 
 
-.form_textarea{}
+.form_textarea{
+    resize: none;
+    border: 1px solid #eee;
+    flex-basis: 100px;
+}
 
 
-.form_submit{}
+.form_submit{
+    width: 40%;
+    background: rgb(10, 202, 235);
+    border: none;
+    padding: .8rem;
+    border-radius: 15px;
+    text-transform: uppercase;
+    color: inherit;
+}
 
 
