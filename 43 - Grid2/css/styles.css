@@ -1,0 +1,46 @@
+/* 
+Medidas de la cuadrícula
+    Se pueden dar medidas con cualquiera de las unidades que ya conocemos 
+    y dos más que ya conocemos que vienen con grid,fr y auto
+        fr: equivale a n en fracciones del espacio disponible después de 
+            establecer las medidas fijas.
+        auto: equivale al espacio que quede después de repartir todos los elementos,
+              es el último que se reparte. el tamaño mínimo del item será el
+              espacio del contenido + el padding si lo tuviera
+
+función repeat()
+    Con la función repeat podemos establecer repeticiones de medidas o patrones.
+    En el caso de "simple" recibiría dos parámetros (valores):
+        repeat(nColumnas o nFilas,medida)
+        grid-template-columns: repeat (4,100px) es lo mismo que
+        grid-template-columns: 100px 100px 100px 100px;
+    
+    Si como el segundo valor añadimos más de una medida, construiremos patrón, no hay un límite 
+    de valores.
+        grid-template-columns: repeat(2, 100px 50px..) es lo mismo que...
+        grid-template-columns:100px 50px 50px 100px;
+
+
+
+        Explicit grid:
+            Es el grid que declaramos, tanto con grid-template-columns
+            como con grid-template-rows
+
+        Implicit grid:
+            Es el grid que no declaramos, los items que quedan fuera del explicit grid
+        
+        Grid-auto-columns:
+            Establece que hacer con las columnas no definidas
+
+        Grid-auto-rows:
+            Establece que hacer con las filas no definidas
+        
+        Grid-auto-flow:
+            Establece la dirección en la cual se va a pintar el implicit grid.
+            Admite 3 valores:
+                row(default): se crearán filas adicionales
+                column: se crearán columnas adicionales.
+                dense: establece que hacer con los huecos que queden.
+
+
+*/
