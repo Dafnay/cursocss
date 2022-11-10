@@ -1,0 +1,38 @@
+/* Breakpoints:
+    Existen 2 tipos de breakpoints, los major breakpoints
+     y los minor breakpoints.
+        -los major son los que cambian la apariencia de la web de
+        forma significativa
+        -los minor son los que cambian una cosa específica para un 
+        elemento en concreto
+
+    Medidas más comunes:
+
+        0 - 320 - 360px: moviles portrait
+        480 - 640 - 768px: moviles landscape - tablet
+        1024 - 1200 - 1400px: tablets grandes, portatiles no HD 
+        1920 - hacia rriba: HD, "K, $K...
+         */
+
+.menu{
+    list-style: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+body{
+    background-color: royalblue;
+}
+
+@media screen and (min-width:480px){
+    body{
+        background-color: red;
+    }
+    
+}
+@media screen and (min-width:1400px) {
+    body {
+        background-color: green;
+    }
+
+}
